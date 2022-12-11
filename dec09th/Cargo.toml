@@ -1,0 +1,11 @@
+[package]
+name = "dec09th"
+version = "0.1.0"
+edition = "2021"
+authors = ["Borja Garcia Gonzalez <debuti@gmail.com>"]
+
+[dependencies]
+term_size ="0.3.2"
+
+[profile.release]
+debug = true
